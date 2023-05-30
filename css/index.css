@@ -1,0 +1,129 @@
+* {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+
+body {
+     background-color: #060606;
+}
+
+.container-fluid {
+     padding: 0 !important;
+}
+
+.parent {
+     height: 100vh;
+     padding: 0 !important;
+}
+
+.input {
+     height: 50%;
+}
+
+/* html */
+
+.html {
+     border-right: 20px solid #060606
+}
+
+#htmlBg {
+     height: 8%;
+     text-align: center;
+     text-transform: uppercase;
+     background-color: #060606;
+}
+
+.htmlWord {
+     background-color: #1d1e22;
+     width: 20%;
+     height: 5vh;
+     border-top: 3px solid darkgray;
+     font-size: 17px;
+     padding: 0 4px 4px 4px;
+     font-weight: bold;
+     color: lightgray;
+     position: relative;
+     z-index: 100;
+}
+
+.fa-html5 {
+     background-color: red;
+     font-size: 16px;
+}
+
+textarea {
+     background-color: #1d1e22;
+     width: 100%;
+     height: 100%;
+     border: none !important;
+     outline: none !important;
+     padding: 10px;
+     color: gray;
+}
+
+/* css */
+.css {
+     border-right: 20px solid #060606
+}
+
+#cssBg {
+     height: 8%;
+     text-align: center;
+     text-transform: uppercase;
+     background-color: #060606;
+}
+
+.cssWord {
+     background-color: #1d1e22;
+     width: 20%;
+     height: 5vh;
+     border-top: 3px solid darkgray;
+     font-size: 17px;
+     padding: 0 4px 4px 4px;
+     font-weight: bold;
+     color: lightgray;
+     position: relative;
+     z-index: 100;
+}
+
+.fa-css3-alt {
+     background-color: blue;
+     font-size: 18px;
+}
+
+/* js */
+.js {
+     border-right: 20px solid #060606
+}
+
+#jsBg {
+     height: 8%;
+     text-align: center;
+     text-transform: uppercase;
+     background-color: #060606;
+}
+
+.jsWord {
+     background-color: #1d1e22;
+     width: 20%;
+     height: 5vh;
+     border-top: 3px solid darkgray;
+     font-size: 17px;
+     padding: 0 4px 4px 4px;
+     font-weight: bold;
+     color: lightgray;
+     position: relative;
+     z-index: 100;
+}
+
+.fa-js {
+     color: #FFD600;
+     font-size: 18px;
+}
+
+#output {
+     height: 50%;
+     background-color: white !important;
+
+}
